@@ -1,0 +1,58 @@
+.education-container {
+    text-align: center;
+    padding: 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 32px;
+    color: #ffcc00;
+    text-shadow: 2px 2px 5px rgba(255, 204, 0, 0.5);
+    margin-bottom: 30px;
+}
+
+.education-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.education-item {
+    background: rgba(40, 44, 52, 0.6);
+    backdrop-filter: blur(8px);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.education-item:hover {
+    transform: scale(1.07);
+}
+
+h3 {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    color: #ddd;
+    margin-bottom: 10px;
+}
+
+.education-year {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffcc00;
+    margin-top: 10px;
+}
